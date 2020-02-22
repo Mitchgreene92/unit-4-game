@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Crystal Collector Game</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="text-center header">
+    <h1>Crystal Collector Game</h1></div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 instructions">
+
+            <h2>Directions:</h2> 
+            <p>Each crystal has its own hidden value 1-12</p>
+            <p>Your goal is to click the crystals to match the Total Sum</p>
+            <p>If you overshoot the sum you lose the game</p>
+
+          </div>
+        </div>
+
+    <div class="row">
+      <div class="col-sm-9 score">
+        <h2>Total Sum: <span id="matchScore"></span></h2>
+      </div>
+    <div class="col-sm-3 score">
+        <h3>Wins: <span id="wins"></span></h3>
+        <h3 class="text-left">Losses: <span id="losses"></span></h3>
+      </div>
+    </div>
+
+
+    <div class="row header">
+      <div class="col-sm-12">
+      <h2>Your total sum so far: <span id="totalScore"></span></h2>
+      </div>
+    </div>
+    </div>
+<!--Crystals-->
+  <div class="row text-center">
+    <div class="col-sm-3">
+    <img src="assets/images/crystal1.png" class="img-thumnail crystal1" alt="Crystal 1" width="100" height="100"/>
+    </div>
+    <div class="col-sm-3">
+    <img src="assets/images/crystal2.png" class="img-thumbnail crystal2" alt="Crystal 2" width="100" height="100"/>
+    </div>
+    <div class="col-sm-3">
+    <img src="assets/images/crystal3.png" class="img-thumnail crystal3" alt="Crystal 3" width="100" height="100"/>
+    </div>
+    <div class="col-sm-3">
+      <img src="assets/images/crystal4.png" class="img-thumnail crystal4" alt="Crystal 4" width="100" height="100"/>
+    </div>
+  </div>
+<br/>
+<br/>
+<br/>
+<center><iframe width="512" height="288" src="https://www.youtube.com/embed/_-PgPZ3F9P4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+  </div>
+</body>
+
+<!--Javascript Game-->
+<script src="assets/javascript/game.js"></script> 
+
+</html>

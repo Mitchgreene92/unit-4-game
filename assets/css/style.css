@@ -1,0 +1,13 @@
+  .header {
+    text-align: center;
+    font-family: 'Lacquer';
+  }
+  
+  .instructions {
+    text-align: left;
+    font-family: 'Lacquer'; 
+  }
+
+  .score {
+    font-family: 'Lacquer';
+  }
