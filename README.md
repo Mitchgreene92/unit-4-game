@@ -1,2 +1,1 @@
-# unit-4-game
-HW4 Crystals game.
+This program allows a user to click 4 different crystals with randomly assigned number values from 1-12 to match a randomly generated number. Includes a music video embedded in the bottom for user to listen to.
